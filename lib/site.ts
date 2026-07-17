@@ -14,7 +14,7 @@ export const site = {
   phoneE164: "+5587988020018",
   whatsappNumber: "5587988020018",
   whatsappMessage:
-    "Olá! Gostaria de agendar um serviço na Diego Centro Automotivo.",
+    "Olá, vim pelo site! Gostaria de agendar um serviço na Diego Centro Automotivo.",
 
   address: {
     street: "Rua Tupinambás, 193",

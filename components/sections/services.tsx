@@ -11,7 +11,7 @@ import { SectionHeading } from "@/components/section-heading";
 import { WhatsAppIcon } from "@/components/icons/whatsapp";
 
 function serviceMessage(service: string) {
-  return `Olá! Gostaria de agendar o serviço de ${service} na Diego Centro Automotivo.`;
+  return `Olá, vim pelo site! Gostaria de agendar o serviço de ${service} na Diego Centro Automotivo.`;
 }
 
 export function Services() {

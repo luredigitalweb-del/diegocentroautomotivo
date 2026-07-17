@@ -152,7 +152,7 @@ export function Hero() {
           <Button asChild variant="outline-light" size="lg">
             <a
               href={whatsappUrl(
-                "Olá! Gostaria de solicitar um orçamento na Diego Centro Automotivo."
+                "Olá, vim pelo site! Gostaria de solicitar um orçamento na Diego Centro Automotivo."
               )}
               target="_blank"
               rel="noopener noreferrer"
