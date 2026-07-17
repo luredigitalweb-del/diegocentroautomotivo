@@ -27,6 +27,9 @@ export const site = {
   // Atualize com o @ oficial da empresa
   instagram: "https://www.instagram.com/diegocentroautomotivo",
 
+  // Perfil no Google (Google Meu Negócio) — avaliações reais
+  googleReviews: "https://share.google/gieuQT5tDfth2OOG2",
+
   // Ajuste conforme o horário real de funcionamento
   hours: [
     { days: "Segunda a Sexta", time: "07:30 às 17:30" },

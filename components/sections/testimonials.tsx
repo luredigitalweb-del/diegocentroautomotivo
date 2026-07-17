@@ -89,17 +89,22 @@ export function Testimonials() {
           description="A melhor propaganda é a opinião de quem deixa o carro com a gente."
         />
 
-        {/* Selo de avaliação Google */}
+        {/* Selo de avaliação Google — clicável, abre o perfil real */}
         <Reveal delay={0.1}>
           <div className="mt-8 flex justify-center">
-            <div className="inline-flex items-center gap-3 rounded-full border border-neutral-200 bg-white py-2.5 pl-4 pr-5 shadow-card">
+            <a
+              href={site.googleReviews}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 rounded-full border border-neutral-200 bg-white py-2.5 pl-4 pr-5 shadow-card transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-red/30 hover:shadow-soft"
+            >
               <GoogleIcon className="h-6 w-6" />
               <span className="font-display text-lg font-extrabold tracking-tight text-brand-black">
                 5,0
               </span>
               <Stars />
               <span className="text-sm text-neutral-500">no Google</span>
-            </div>
+            </a>
           </div>
         </Reveal>
       </div>
@@ -138,7 +143,7 @@ export function Testimonials() {
       <Reveal delay={0.2}>
         <div className="mt-10 flex justify-center">
           <a
-            href={site.mapsLink}
+            href={site.googleReviews}
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 text-sm font-semibold text-neutral-600 transition-colors hover:text-brand-red"
