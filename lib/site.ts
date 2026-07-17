@@ -38,9 +38,9 @@ export const site = {
   ],
 
   mapsEmbedUrl:
-    "https://www.google.com/maps?q=Rua+Tupinamb%C3%A1s,+193+-+Maria+Auxiliadora,+Petrolina+-+PE&output=embed",
+    "https://www.google.com/maps?q=Diego+Centro+Automotivo+-+Revis%C3%A3o+Automotiva,+Rua+Tupinamb%C3%A1s,+193,+Petrolina+-+PE&output=embed",
   mapsLink:
-    "https://www.google.com/maps/search/?api=1&query=Rua+Tupinamb%C3%A1s,+193+-+Maria+Auxiliadora,+Petrolina+-+PE",
+    "https://www.google.com/maps/place/Diego+Centro+Automotivo+-+Revis%C3%A3o+Automotiva/@-9.3886688,-40.4909019,17z/data=!3m1!4b1!4m6!3m5!1s0x773714d8f46be3d:0x2e7f5826c4cbf50b!8m2!3d-9.3886688!4d-40.4909019!16s%2Fg%2F11g1lsqkq4",
 } as const;
 
 /** Gera o link do WhatsApp com mensagem pré-preenchida. */
