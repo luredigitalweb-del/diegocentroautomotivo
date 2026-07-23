@@ -156,6 +156,15 @@ export default function RootLayout({
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GTM_ID}');`,
           }}
         />
+
+        {/* Widget de atendimento WTS Chat */}
+        <Script
+          id="wts-widget"
+          src="https://cdn.wts.chat/scripts/widget/v2/h-widget-min.js"
+          strategy="afterInteractive"
+          data-companyid="eb71637e-b7ff-437e-91d7-8b83440db9cc"
+          data-widgetid="7f83c0b4-1552-4e6a-ab6b-4cd037e8108c"
+        />
       </body>
     </html>
   );
